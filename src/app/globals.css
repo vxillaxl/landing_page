@@ -19,7 +19,7 @@ body {
 }
 
 .landing-card {
-  width: min(1040px, 100%);
+  width: min(1120px, 100%);
   background: #fff;
   border-radius: 20px;
   box-shadow: 0 10px 32px rgba(0, 0, 0, 0.1);
@@ -102,7 +102,7 @@ body {
 
 .hero {
   margin-top: 8px;
-  min-height: 300px;
+  min-height: 360px;
   border-radius: 14px;
   background-image: linear-gradient(
       110deg,
@@ -124,7 +124,7 @@ body {
 .hero-overlay h1 {
   margin: 0 0 14px;
   color: #fff;
-  font-size: 32px;
+  font-size: 42px;
   line-height: 1.02;
   letter-spacing: 0.2px;
   font-weight: 900;
@@ -173,7 +173,7 @@ h4 {
 .menu-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 10px;
+  gap: 12px;
 }
 
 .menu-card {
@@ -183,9 +183,9 @@ h4 {
   background: #fff;
 }
 
-.menu-card img {
+.menu-card-image {
   width: 100%;
-  height: 80px;
+  height: 128px;
   object-fit: cover;
 }
 
@@ -194,13 +194,13 @@ h4 {
 }
 
 .menu-card h4 {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 800;
 }
 
 .menu-card p {
   margin: 4px 0 0;
-  font-size: 10px;
+  font-size: 11px;
   color: #666;
 }
 
@@ -227,7 +227,7 @@ h4 {
 }
 
 .about-split h2 {
-  font-size: 42px;
+  font-size: 48px;
   line-height: 0.95;
   font-weight: 900;
 }
@@ -268,18 +268,18 @@ h4 {
 .ways-grid {
   display: grid;
   grid-template-columns: 1.4fr 1fr 1fr;
-  gap: 12px;
+  gap: 14px;
 }
 
 .pizza-shot {
-  min-height: 290px;
+  min-height: 340px;
   border-radius: 16px;
   background: url("https://images.unsplash.com/photo-1548365328-9f547fb0953a?auto=format&fit=crop&w=1200&q=80")
     center / cover no-repeat;
 }
 
 .dark-card {
-  min-height: 290px;
+  min-height: 340px;
   border-radius: 16px;
   background: #1f2329;
   color: #fff;
@@ -290,7 +290,7 @@ h4 {
 }
 
 .dark-card h4 {
-  font-size: 24px;
+  font-size: 30px;
   line-height: 1;
   font-weight: 900;
 }
@@ -320,7 +320,7 @@ h4 {
 }
 
 .community-gallery div {
-  min-height: 90px;
+  min-height: 120px;
   border-radius: 10px;
   background: #ececec;
 }
@@ -352,14 +352,14 @@ h4 {
 }
 
 .cta-row article {
-  min-height: 170px;
+  min-height: 210px;
   border-radius: 12px;
   border: 1px solid #ededed;
   padding: 14px;
 }
 
 .cta-row h4 {
-  font-size: 26px;
+  font-size: 30px;
   line-height: 1;
   font-weight: 900;
 }
@@ -509,7 +509,7 @@ h4 {
   }
 
   .hero-overlay h1 {
-    font-size: 26px;
+    font-size: 34px;
   }
 
   .about-split h2,
@@ -520,7 +520,7 @@ h4 {
 
   .dark-card,
   .pizza-shot {
-    min-height: 210px;
+    min-height: 260px;
   }
 }
 
@@ -536,10 +536,10 @@ h4 {
   }
 
   .hero {
-    min-height: 220px;
+    min-height: 260px;
   }
 
   .hero-overlay h1 {
-    font-size: 22px;
+    font-size: 26px;
   }
 }

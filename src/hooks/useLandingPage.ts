@@ -25,13 +25,12 @@ export function useLandingPage() {
   };
 
   const openOrderForm = (itemName: string) => {
-    setStatusMessage(`Preparing order form for ${itemName}.`);
-    router.push(`/order?item=${encodeURIComponent(itemName)}`);
+    setStatusMessage(`${itemName} added to your order.`);
+    goTo("menu", "Item added to your order.");
   };
 
   const goToLearnMore = () => {
-    setStatusMessage("Opening more information page.");
-    router.push("/about-site");
+    goTo("about", "Showing more information about our pizza.");
   };
 
   const handleRequest = (type: string) => {

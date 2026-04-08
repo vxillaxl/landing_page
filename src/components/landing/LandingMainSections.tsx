@@ -32,7 +32,13 @@ export function LandingMainSections({
         <div className="menu-grid">
           {menuItems.map((item) => (
             <article key={item.title} className="menu-card">
-              <Image src={item.image} alt={item.title} width={300} height={120} />
+              <Image
+                src={item.image}
+                alt={item.title}
+                width={420}
+                height={220}
+                className="menu-card-image"
+              />
               <div>
                 <h4>{item.title}</h4>
                 <p>{item.subtitle}</p>
@@ -122,7 +128,7 @@ export function LandingMainSections({
         <article>
           <h4>SUBMIT A REQUEST</h4>
           <p className="request-state" suppressHydrationWarning>
-            Current: {selectedRequest}
+            Current request: {selectedRequest}
           </p>
           <div className="request-buttons">
             <button className="tiny" onClick={() => onRequest("catering")}>
